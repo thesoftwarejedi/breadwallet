@@ -305,6 +305,9 @@
                                self.view.frame.size.height - label.frame.size.height - 5);
     [self.view addSubview:label];
 #endif
+    
+    //set the max digits to 8
+    [defs setInteger:8 forKey:SETTINGS_MAX_DIGITS_KEY];
 
     if ([defs integerForKey:SETTINGS_MAX_DIGITS_KEY] == 5) {
         m.format.currencyCode = @"mBTC";
