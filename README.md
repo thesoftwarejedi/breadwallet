@@ -1,7 +1,7 @@
 toastwallet is a real standalone bitcoin client based on breadwallet (see fork).
 
 This will be maintained as a fork, merging in the latest breadwallet - incorporating
-additional features or changes as I selfishly decide to implement.  See issue #1 for
+additional features or changes as I selfishly decide to implement.  See issue https://github.com/thesoftwarejedi/breadwallet/issues/1 for
 the reason this fork was created.  My daughter is 11 years old and has trouble with
 the BTC conversion from bitpay payment screens to bits.  At the same time, I support
 breadwallet, its pure SPV model, and strong security practices.  The author of breadwallet,
